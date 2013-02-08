@@ -1,0 +1,1 @@
+[25-Jan-2013 09:34:33] PHP Fatal error:  Call to undefined function  get_header() in /home/tivicoke/public_html/wp-content/themes/wp-foundation/index.php on line 1
