@@ -52,8 +52,7 @@
 					<?php endif; ?>
 			
 				</div> <!-- end #main -->
-    			<div class="two columns try"></div>
-    			<div class="two columns try"></div>
+    			<div class="four columns try"><h1>The guide goes here</h1></div>
 				<?php get_sidebar(); // sidebar 1 ?>
     
 			</div> <!-- end #content -->
