@@ -52,7 +52,20 @@
 					<?php endif; ?>
 			
 				</div> <!-- end #main -->
-    			<div class="four columns try"><h1>The guide goes here</h1></div>
+    			<div class="four columns">
+                    <div id="tivi-guide">
+                        <!--iframe src="http://localhost:3000/test" frameborder="0" border="0"></iframe-->
+                    </div>
+                    <script type="text/javascript">
+                        (function(d) {
+                            var url = "http://localhost:3000/javascript/embed.js";
+                            var guide = document.createElement('script'); guide.type = 'text/javascript'; guide.async = true;
+                            guide.src = url;
+                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(guide);
+
+                        }) (document);
+                    </script>
+    			</div>
 				<?php get_sidebar(); // sidebar 1 ?>
     
 			</div> <!-- end #content -->
